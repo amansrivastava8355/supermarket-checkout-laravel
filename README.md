@@ -39,7 +39,7 @@ A, A $100
 A, A, A $130
 ```
 
-## Solution
+## Setup and Getting Started 
 ### Setting up Local Development Environment
 It is recommended to use Docker with Laravel Sail for a quick and reliable setup.
 Clone this repo: ```git clone git@github.com:amansrivastava8355/supermarket-checkout-laravel```
@@ -71,7 +71,8 @@ Fire up Laravel Sail:
 ```
 ./vendor/bin/sail up -d
 ```
-Visit ```http://localhost:8601``` in your browser, and you should see the total price displayed.
+
+Write the test in any order according to you prefrence in routes/web.php and Visit ```http://localhost:8601``` in your browser, and you should see the total price displayed.
 
 Please run the below command to check the test cases:
 ```
